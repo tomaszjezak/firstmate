@@ -1,0 +1,254 @@
+{
+  "result": "pass",
+  "harness": "omp 18.1.18",
+  "scenario": "Native compaction followed by full current and paired source reads",
+  "compaction_id": "328a0d08",
+  "compaction_timestamp": "2026-09-12T20:37:40.514Z",
+  "marker_update_timestamp": "2026-09-12T20:38:19.473056+00:00",
+  "source_count": 7,
+  "complete_source_lines": {
+    "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/AGENTS.md": 77,
+    "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-frontend/AGENTS.md": 75,
+    "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-frontend/CLAUDE.md": 174,
+    "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/AGENTS.md": 76,
+    "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-backend/CLAUDE.md": 3686,
+    "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-backend/AGENTS.md": 74,
+    "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/CLAUDE.md": 174
+  },
+  "read_results": [
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/AGENTS.md",
+      "first": 1,
+      "last": 77,
+      "tool_call_id": "call_SqS552KIhtbowgcEDmicZ60r|fc_08b950258a397b5a016aa5b857a83c87d29ea6b4231e590d6e",
+      "bytes_match": true
+    },
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-frontend/AGENTS.md",
+      "first": 1,
+      "last": 75,
+      "tool_call_id": "call_W3T0QUNA0eVsRHM2yJH0Pitj|fc_0c545d8a470c6496016aa5b8691b3c87d284884a4d6aa0b9d1",
+      "bytes_match": true
+    },
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-frontend/CLAUDE.md",
+      "first": 1,
+      "last": 150,
+      "tool_call_id": "call_mYZJWptGVOEh0wLNHgDPm4Vf|fc_0c545d8a470c6496016aa5b8691b3487d2ab54c9b460e5baaf",
+      "bytes_match": true
+    },
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/AGENTS.md",
+      "first": 1,
+      "last": 76,
+      "tool_call_id": "call_o7Kael8dwvQGWYBRC9RFiwc4|fc_0c545d8a470c6496016aa5b8691b4487d29808d227f8c25069",
+      "bytes_match": true
+    },
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-backend/CLAUDE.md",
+      "first": 1,
+      "last": 150,
+      "tool_call_id": "call_FkJGZLTmUj4N16MuWByvRi3k|fc_0c545d8a470c6496016aa5b8691b1087d289f9f9ac862abbb9",
+      "bytes_match": true
+    },
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-backend/AGENTS.md",
+      "first": 1,
+      "last": 74,
+      "tool_call_id": "call_X56dFpIkTIm99lHTO4ydX9NU|fc_0c545d8a470c6496016aa5b8691b2887d2a8425d43f1ba7b60",
+      "bytes_match": true
+    },
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-backend/CLAUDE.md",
+      "first": 151,
+      "last": 300,
+      "tool_call_id": "call_u2Y0wqF0tNWBi7cOW95Vi04g|fc_02cdfd7f6d90b1da016aa5b86bd9c087d2a1df9f72ebc57955",
+      "bytes_match": true
+    },
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-backend/CLAUDE.md",
+      "first": 301,
+      "last": 450,
+      "tool_call_id": "call_sTIE5U55CyhPcsodOW7A8Fb8|fc_06a0d6939f61718d016aa5b871ff8487d29614e7a85ccc3697",
+      "bytes_match": true
+    },
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-backend/CLAUDE.md",
+      "first": 451,
+      "last": 600,
+      "tool_call_id": "call_FgdnlTPseaXimMNUHqQhcJFG|fc_0b862ab64de78ce3016aa5b876dde487d2ab8866fabfbe8d87",
+      "bytes_match": true
+    },
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-backend/CLAUDE.md",
+      "first": 601,
+      "last": 750,
+      "tool_call_id": "call_PGrr7ZqZL9JvK4FlZK86FkaP|fc_0d1abc2036e9c654016aa5b87c605c87d2afd662a79ea5b3a0",
+      "bytes_match": true
+    },
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-backend/CLAUDE.md",
+      "first": 751,
+      "last": 900,
+      "tool_call_id": "call_TdCrlqzubXBBKnnPZiIuSq8Q|fc_0aedf770f4388957016aa5b88331ac87d2b44d204dfd1db515",
+      "bytes_match": true
+    },
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-backend/CLAUDE.md",
+      "first": 901,
+      "last": 1050,
+      "tool_call_id": "call_M9jqPqfaM2e3pcdxmyCTLAqD|fc_04874c7680388b1b016aa5b888d91487d287e419ed9ec1c40c",
+      "bytes_match": true
+    },
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-backend/CLAUDE.md",
+      "first": 1051,
+      "last": 1200,
+      "tool_call_id": "call_uUjREYbqKlMvOVxdDjESsSQ8|fc_0d0ae3122d492603016aa5b88fa14887d2b4a75529f4238da1",
+      "bytes_match": true
+    },
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-backend/CLAUDE.md",
+      "first": 1201,
+      "last": 1350,
+      "tool_call_id": "call_Cyl0LsVesWVGmqHEcfOLYjjC|fc_071a357e07050a67016aa5b894f20487d29b9d864d013819ca",
+      "bytes_match": true
+    },
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-backend/CLAUDE.md",
+      "first": 1351,
+      "last": 1500,
+      "tool_call_id": "call_NYBga11SxVX1KHj0lUL7DE24|fc_0dfbb31e69716221016aa5b89a621487d28615fbb0c9de0819",
+      "bytes_match": true
+    },
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-backend/CLAUDE.md",
+      "first": 1501,
+      "last": 1650,
+      "tool_call_id": "call_Gsv02IEG2L9CzsMD7f159QjV|fc_017ba0f7267f9c81016aa5b89fffc887d2a638b34339a3ce2d",
+      "bytes_match": true
+    },
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-backend/CLAUDE.md",
+      "first": 1651,
+      "last": 1800,
+      "tool_call_id": "call_TwDQdaYgjP0x2L3bxWPRctiq|fc_0e494c10d9483018016aa5b8ad501887d28d1d690462b574f4",
+      "bytes_match": true
+    },
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-backend/CLAUDE.md",
+      "first": 1801,
+      "last": 1950,
+      "tool_call_id": "call_gyrpNUXl38xoJvVQINqbQnWx|fc_0e4c2897dd6e140c016aa5b8b2914087d28a1f6a5cf7c4b096",
+      "bytes_match": true
+    },
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-backend/CLAUDE.md",
+      "first": 1951,
+      "last": 2100,
+      "tool_call_id": "call_ezoT9uyC0qON06RaUcci0g05|fc_0675f024969340d4016aa5b8b9aad087d2bc9349819447c391",
+      "bytes_match": true
+    },
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-backend/CLAUDE.md",
+      "first": 2101,
+      "last": 2250,
+      "tool_call_id": "call_vNHSlL0NRWYbibqzGFzO8BC5|fc_07afea712a98b89f016aa5b8bfd9cc87d2800afcb4d24d24b5",
+      "bytes_match": true
+    },
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-backend/CLAUDE.md",
+      "first": 2251,
+      "last": 2400,
+      "tool_call_id": "call_WIlhkT8QG0OyGVt1zEiWSeRk|fc_0fcb352f92e66ca1016aa5b8c56ea087d29e16329de0387ab6",
+      "bytes_match": true
+    },
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-backend/CLAUDE.md",
+      "first": 2401,
+      "last": 2550,
+      "tool_call_id": "call_nLAucTryoftDvJHQS1k3o9jH|fc_0718486e9bbc299a016aa5b8cadb4087d292787c6b22867628",
+      "bytes_match": true
+    },
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-backend/CLAUDE.md",
+      "first": 2551,
+      "last": 2700,
+      "tool_call_id": "call_FcWlC45GwUIenYLz2ZC1HEtf|fc_04c9ed33c2e10590016aa5b8d3b93c87d2991594ce296805f3",
+      "bytes_match": true
+    },
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-backend/CLAUDE.md",
+      "first": 2701,
+      "last": 2850,
+      "tool_call_id": "call_kQyRQ7W4YdNjFFvsE7FAKamo|fc_02595de2d8dfee10016aa5b8dd212887d2bbaadde07f506a93",
+      "bytes_match": true
+    },
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-backend/CLAUDE.md",
+      "first": 2851,
+      "last": 3000,
+      "tool_call_id": "call_aMFeS9FDxyU3L8eRcF9YahZh|fc_05062e74236b66ca016aa5b8e2860c87d2a4009dad9a81a3a2",
+      "bytes_match": true
+    },
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-backend/CLAUDE.md",
+      "first": 3001,
+      "last": 3150,
+      "tool_call_id": "call_f8YDKab2D58JQ6FKYGQunoQX|fc_095ca57e21e16378016aa5b8e7eeb487d28de1dbcf18a06056",
+      "bytes_match": true
+    },
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-backend/CLAUDE.md",
+      "first": 3151,
+      "last": 3300,
+      "tool_call_id": "call_43cFuGbCQEZ0PJZJrYiCz615|fc_01c27a3bb8a8c47a016aa5b8ed3d7487d289ed212feed7a610",
+      "bytes_match": true
+    },
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-backend/CLAUDE.md",
+      "first": 3301,
+      "last": 3450,
+      "tool_call_id": "call_E5BHV5YkAWRjggq6vSjHhLo9|fc_0472de4800f2ee2a016aa5b8f3b36c87d2819a6ba40d6d0734",
+      "bytes_match": true
+    },
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-backend/CLAUDE.md",
+      "first": 3451,
+      "last": 3600,
+      "tool_call_id": "call_rMRnwCjvtiznf5Bkx5PMPtE4|fc_09eaf411a4b87962016aa5b8f953a087d2b37463d56e9be669",
+      "bytes_match": true
+    },
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-frontend/CLAUDE.md",
+      "first": 151,
+      "last": 174,
+      "tool_call_id": "call_s1uFsmr62PuqO5GRZSSZgGes|fc_04230522093b9a73016aa5b908a36087d29199270b5760bbe6",
+      "bytes_match": true
+    },
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-backend/CLAUDE.md",
+      "first": 3601,
+      "last": 3686,
+      "tool_call_id": "call_kpwk5XeI85UFZpHaB6w4ivhW|fc_04230522093b9a73016aa5b908a34c87d2b7a80553254d0b55",
+      "bytes_match": true
+    },
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/CLAUDE.md",
+      "first": 1,
+      "last": 150,
+      "tool_call_id": "call_V6oUgbJFp6oV9gweY3jePNNO|fc_04230522093b9a73016aa5b908a36887d28b54dd3212294325",
+      "bytes_match": true
+    },
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/CLAUDE.md",
+      "first": 151,
+      "last": 174,
+      "tool_call_id": "call_pztGVjuyDSzNdQ8Ig6LH2Gdd|fc_0562f6d2e4e0c249016aa5b90b6a5887d28ac996380ca4e4d3",
+      "bytes_match": true
+    }
+  ],
+  "fresh_hashes_match": true,
+  "updated_marker_discovered_without_prompt_disclosure": true,
+  "guard_preserved": true
+}

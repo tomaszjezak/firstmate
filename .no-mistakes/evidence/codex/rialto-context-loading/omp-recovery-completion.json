@@ -1,0 +1,15 @@
+{
+  "verdict": "pass",
+  "scenario": "OMP native post-compaction source recovery",
+  "tested_head_sha": "e88e03535eea62dab49052a80b7b4bf317b55124",
+  "source_change": "docs/configuration.md access requirement clarification",
+  "retained": {
+    "worker_checkout": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend",
+    "configuration": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/home/config/rialto-project-context.paths",
+    "original_sources": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-validation-sources",
+    "accessible_sources": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources",
+    "reason": "Verified task source fixtures retained as requested; runtime sessions stopped; source markers restored."
+  },
+  "all_original_and_accessible_hashes_restored": true,
+  "earlier_evidence_preserved": true
+}

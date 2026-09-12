@@ -1,0 +1,13 @@
+{
+  "window": "firstmate:fm-recovery",
+  "endpoint_task_id": "recovery",
+  "worktree": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend",
+  "project": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/frontend",
+  "harness": "omp",
+  "kind": "scout",
+  "tasktmp": "/tmp/fm-recovery",
+  "model": "openai-codex/gpt-6-astra",
+  "effort": "low",
+  "busy_gen": "g1789244658.56657.19534",
+  "spawn_gen": "s1789244658.56130.8128"
+}

@@ -1,0 +1,3 @@
+error: required Rialto configuration missing: /Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-context-test/refuse-home/config/rialto-project-context.paths; use fm-project-context.sh --prepare-rialto with verified backend, frontend and product AGENTS.md sources
+error: required project instructions could not be loaded
+warning: leaving task refuse2's slot claim on /Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-context-test/pool/.treehouse/backend-e79957/1/backend in place; the Treehouse project lock is no longer held, so the next spawn's claim replaces it

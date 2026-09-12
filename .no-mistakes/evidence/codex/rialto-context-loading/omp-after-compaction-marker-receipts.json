@@ -1,0 +1,48 @@
+{
+  "marker": "OMP_RECOVERY_5ecf480c332246a387e81a34b5943689",
+  "timestamp": "2026-09-12T20:38:19.473056+00:00",
+  "sources": [
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/CLAUDE.md",
+      "sha256": "aa59124396ea2fac91efc636fe185932fe27f63284960f6f27233beeb0e0cf7d",
+      "bytes": 10441,
+      "lines": 174
+    },
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/AGENTS.md",
+      "sha256": "3b853ab9ad6f0d8244146b53a849c4a8d3adce59c7639a310076b536a23dff39",
+      "bytes": 5937,
+      "lines": 77
+    },
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-backend/CLAUDE.md",
+      "sha256": "c8e1706e7be57beaa16424b2d1c980787da85b9f7c604d69fb1fe45fc8c46922",
+      "bytes": 276837,
+      "lines": 3686
+    },
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-backend/AGENTS.md",
+      "sha256": "79014b8a2c13b7ce5ef5142a4cc8936507616f3bf3cdbdca9b9650c2cbc9d6e3",
+      "bytes": 5807,
+      "lines": 74
+    },
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-frontend/CLAUDE.md",
+      "sha256": "aa59124396ea2fac91efc636fe185932fe27f63284960f6f27233beeb0e0cf7d",
+      "bytes": 10441,
+      "lines": 174
+    },
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-frontend/AGENTS.md",
+      "sha256": "8c135e463237e05bf577df161b242df3279c3816678c3e083219d22a535f90fe",
+      "bytes": 5844,
+      "lines": 75
+    },
+    {
+      "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/AGENTS.md",
+      "sha256": "8e751a4077315abd35e420083a9d87bd8d3490103a63b9c8b0e443bcf5492ca9",
+      "bytes": 5868,
+      "lines": 76
+    }
+  ]
+}

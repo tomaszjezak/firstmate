@@ -1,0 +1,7 @@
+{
+  "isolated_tmux_stopped": true,
+  "stale_task_socket_removed_after_no_server_confirmation": true,
+  "temporary_worktrees_removed": true,
+  "temporary_lab_removed": true,
+  "prepared_source_fixtures_retained_and_hash_verified": true
+}

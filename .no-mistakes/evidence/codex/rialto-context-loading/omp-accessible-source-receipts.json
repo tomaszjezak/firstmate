@@ -1,0 +1,41 @@
+[
+  {
+    "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-backend/CLAUDE.md",
+    "source_path": "/Users/tomasz/Desktop/rialto/product/.standards-review/backend/CLAUDE.md",
+    "commit": "fbe7ef9c60fca6d67f49ae6c849b2cd337045e8d",
+    "sha256": "c016b8ae5f571f3af922fd972fdbe2090353ed7b20fce2e67f5c6e614f670bb0",
+    "copied_from": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-validation-sources/rialto-backend/CLAUDE.md",
+    "bytes": 276744
+  },
+  {
+    "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-backend/AGENTS.md",
+    "source_path": "/Users/tomasz/Desktop/rialto/product/.standards-review/backend/AGENTS.md",
+    "commit": "fbe7ef9c60fca6d67f49ae6c849b2cd337045e8d",
+    "sha256": "79014b8a2c13b7ce5ef5142a4cc8936507616f3bf3cdbdca9b9650c2cbc9d6e3",
+    "copied_from": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-validation-sources/rialto-backend/AGENTS.md",
+    "bytes": 5807
+  },
+  {
+    "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-frontend/CLAUDE.md",
+    "source_path": "/Users/tomasz/Desktop/rialto/product/.standards-review/frontend/CLAUDE.md",
+    "commit": "30e010ba58a9bf6493c1b0ce2a37fce841d209db",
+    "sha256": "aa59124396ea2fac91efc636fe185932fe27f63284960f6f27233beeb0e0cf7d",
+    "copied_from": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-validation-sources/rialto-frontend/CLAUDE.md",
+    "bytes": 10441
+  },
+  {
+    "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/rialto-frontend/AGENTS.md",
+    "source_path": "/Users/tomasz/Desktop/rialto/product/.standards-review/frontend/AGENTS.md",
+    "commit": "30e010ba58a9bf6493c1b0ce2a37fce841d209db",
+    "sha256": "8c135e463237e05bf577df161b242df3279c3816678c3e083219d22a535f90fe",
+    "copied_from": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-validation-sources/rialto-frontend/AGENTS.md",
+    "bytes": 5844
+  },
+  {
+    "path": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validation-sources/AGENTS.md",
+    "source_path": "/Users/tomasz/Desktop/rialto/product/AGENTS.md",
+    "sha256": "8e751a4077315abd35e420083a9d87bd8d3490103a63b9c8b0e443bcf5492ca9",
+    "copied_from": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-validation-sources/AGENTS.md",
+    "bytes": 5868
+  }
+]

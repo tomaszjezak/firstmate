@@ -1,0 +1,1 @@
+error: required Rialto configuration missing: /Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-context-test/home/config/rialto-project-context.paths; use fm-project-context.sh --prepare-rialto with verified backend, frontend and product AGENTS.md sources

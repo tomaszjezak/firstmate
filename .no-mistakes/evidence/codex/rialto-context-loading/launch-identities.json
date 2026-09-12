@@ -1,0 +1,29 @@
+{
+  "deliver": {
+    "harness": "codex",
+    "worktree": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-context-test/pool/.treehouse/backend-e79957/2/backend",
+    "project": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-context-test/backend",
+    "kind": "scout",
+    "window": "firstmate:fm-deliver",
+    "backend": null,
+    "commit": "fbe7ef9c60fca6d67f49ae6c849b2cd337045e8d"
+  },
+  "ompchild": {
+    "harness": "omp",
+    "worktree": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-context-test/pool/.treehouse/backend-e79957/3/backend",
+    "project": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-context-test/backend",
+    "kind": "scout",
+    "window": "firstmate:fm-ompchild",
+    "backend": null,
+    "commit": "fbe7ef9c60fca6d67f49ae6c849b2cd337045e8d"
+  },
+  "compact": {
+    "harness": "omp",
+    "worktree": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-context-test/pool/.treehouse/backend-e79957/4/backend",
+    "project": "/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-context-test/backend",
+    "kind": "scout",
+    "window": "firstmate:fm-compact",
+    "backend": null,
+    "commit": "fbe7ef9c60fca6d67f49ae6c849b2cd337045e8d"
+  }
+}

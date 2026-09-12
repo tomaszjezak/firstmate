@@ -1,0 +1,2 @@
+fatal: could not read Username for 'https://github.com': terminal prompts disabled
+error: could not fetch origin for pooled worktree '/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-context-test/pool/.treehouse/rialto-backend-5eb4a7/1/rialto-backend'; refusing to launch from a potentially stale base

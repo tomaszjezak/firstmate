@@ -1,0 +1,44 @@
+│                          │ / for commands                                  │
+│       ████████████       │ ! to run bash                                   │
+│          ██  ██          │ $ to run python                                 │
+│          ██  ██          │ ─────────────────────────────────────────────── │
+│          ▒▒  ██          │ LSP Servers                                     │
+│              ██          │ No LSP servers                                  │
+│                          │                                                 │
+│       GPT-6-Astra        │                                                 │
+│       openai-codex       │                                                 │
+│                          │ ─────────────────────────────────────────────── │
+│                          │ Recent sessions                                 │
+│                          │ No recent sessions                              │
+│                          │                                                 │
+│                          │                                                 │
+│                          │                                                 │
+│                          │                                                 │
+╰──────────────────────────┴─────────────────────────────────────────────────╯
+ Tip: Press ctrl+r to search your prompt history and reuse a past message
+
+
+   md
+ - /Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A
+   /config/rialto-context-test/pool/.treehouse/backend-e79957/4/backend/AGENTS.
+   md
+ - /Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A
+   /config/rialto-validation-sources/rialto-backend/CLAUDE.md
+ - /Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A
+   /config/rialto-validation-sources/rialto-backend/AGENTS.md
+ - /Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A
+   /config/rialto-validation-sources/rialto-frontend/CLAUDE.md
+ - /Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A
+   /config/rialto-validation-sources/rialto-frontend/AGENTS.md
+ - /Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A
+   /config/rialto-validation-sources/AGENTS.md
+
+ The requested summary is complete. Further work remains limited to the
+ subsequent source-reload instruction and any explicitly authorized read-only
+ continuation.
+
+ READY_FOR_COMPACTION
+─────────────────── 📷 remote-compacted · 166K→28K · ctrl+o ────────────────────
+
+❯
+ π · ◔ GPT-6-Astra · 🌳 backend/backend · ⑂ detached *1 · ◫ 9.3%/272K ⟲ · S2.05

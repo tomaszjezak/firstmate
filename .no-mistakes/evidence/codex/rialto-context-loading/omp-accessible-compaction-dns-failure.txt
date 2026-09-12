@@ -1,0 +1,65 @@
+ The frontend is Vite, React, TypeScript, pnpm, Tailwind/shadcn, and TanStack Query. It renders backend data without pricing, matching, RFQ business logic, or
+ datastore access. Thin REST wrappers follow CONTRACT.md; read it before consumer changes, update stale contracts before types and consumers, and retain human
+ review. Missing endpoints are blockers, never permission to invent data or parse chat prose. Render structured content blocks; invalidate/refetch dashboard
+ queries after chat side effects.
+
+ Create enters the Agent workspace immediately while account-scoped background coordination saves and processes uploads. Keep selection, navigation, reading,
+ and overlapping submissions available within bounded concurrency. Preserve originals, scoped caches, and unsaved drafts across navigation; clear sensitive
+ caches on logout or account changes. Acknowledge actions immediately without claiming durable success prematurely. Reconcile lost responses through stable
+ action IDs.
+
+ Saved, viewable, searchable, and accepted are separate capabilities. Needs Review requires an actual unresolved request, understandable reason, and usable
+ action. Provider failures are operational recovery issues. Preserve readable mobile/sidebar labels, reachable scrolling, and optional fullscreen. Never
+ conceal unsaved data.
+
+ ### Verification and recovery
+
+ Shared and production databases remain read-only. Retain isolated databases, projects, and storage until Tomasz explicitly approves exact-resource deletion.
+ Verify actual bindings before any separately authorized integration work. Preserve hooks, protected paths, Gauntlet fast during development, survivor before
+ acceptance, and human gates; run none during this probe. Passing pytest, skipped tests, fixtures, or historical verification cannot establish live integration
+ correctness.
+
+ Reviewer delivery preserves provenance, neutral names, numbered actions, verified fixture links, expected outcomes, and genuine limitations separately from
+ observed results. Keep credentials private. After compaction, reread every listed source completely before dependent work. If any required source is
+ inaccessible or mismatched, stop and report; never substitute memory or bypass access controls.
+
+ ### Required source receipts
+
+ - /Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/CLAUDE.md
+   SHA-256: aa59124396ea2fac91efc636fe185932fe27f63284960f6f27233beeb0e0cf7d
+ - /Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/AGENTS.md
+   SHA-256: 8c135e463237e05bf577df161b242df3279c3816678c3e083219d22a535f90fe
+ - /Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validatio
+   n-sources/rialto-backend/CLAUDE.md
+   SHA-256: c016b8ae5f571f3af922fd972fdbe2090353ed7b20fce2e67f5c6e614f670bb0
+ - /Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validatio
+   n-sources/rialto-backend/AGENTS.md
+   SHA-256: 79014b8a2c13b7ce5ef5142a4cc8936507616f3bf3cdbdca9b9650c2cbc9d6e3
+ - /Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validatio
+   n-sources/rialto-frontend/CLAUDE.md
+   SHA-256: aa59124396ea2fac91efc636fe185932fe27f63284960f6f27233beeb0e0cf7d
+ - /Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validatio
+   n-sources/rialto-frontend/AGENTS.md
+   SHA-256: 8c135e463237e05bf577df161b242df3279c3816678c3e083219d22a535f90fe
+ - /Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-omp-recovery/pool/.treehouse/frontend-0b3a95/1/frontend/validatio
+   n-sources/AGENTS.md
+   SHA-256: 8e751a4077315abd35e420083a9d87bd8d3490103a63b9c8b0e443bcf5492ca9
+
+ Canonical references: /Users/tomasz/Desktop/rialto/product/rialto-backend/CLAUDE.md, /Users/tomasz/Desktop/rialto/product/rialto-frontend/CLAUDE.md,
+ /Users/tomasz/Desktop/rialto/product/AGENTS.md. Do not infer paired locations from sibling names. Preserve these receipts verbatim through recovery.
+
+ READY_FOR_COMPACTION
+
+ Warning: compaction: remote compaction failed; trying the next preferred method
+
+ Warning: compaction: snapcompact would not reduce context.
+
+ Warning: compaction: snapcompact compaction failed; trying the next preferred method
+
+ Error: Compaction failed: Turn prefix summarization failed: getaddrinfo ENOTFOUND chatgpt.com
+
+ ※ recap: Captain, the read-only context recovery validation has its initial handoff complete, preserving Rialto standards and supplied source receipts without
+ tool use or changes. Next, after compaction, reread the required sources when the recovery request arrives.
+
+❯
+ π · ◔ GPT-6-Astra · 🌳 frontend/frontend · ⑂ detached ?1 · ◫ 41.6%/272K ⟲ · S1.22

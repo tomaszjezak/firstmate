@@ -1,0 +1,6 @@
+{'id': 1, 'result': {'userAgent': 'rialto_context_test/0.153.4 (Mac OS 26.6.2; arm64) dumb (rialto_context_test; 1)', 'codexHome': '/Users/tomasz/.codex', 'platformFamily': 'unix', 'platformOs': 'macos'}}
+thread 01a09740-4b6d-7291-87bf-57078af04e42
+initial turn complete
+{'id': 4, 'result': {}}
+compaction observed item/completed
+recovery turn complete

@@ -1,0 +1,2 @@
+WARNING: watcher still down (same stale episode; last beat: never, grace 300s) - full banner already printed this episode.
+relaunched compact harness=omp from=omp model=default effort=default backend=tmux endpoint=firstmate:fm-compact worktree=/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-context-test/pool/.treehouse/backend-e79957/4/backend

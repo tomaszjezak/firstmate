@@ -1,0 +1,70 @@
+   SHA-256: 8e751a4077315abd35e420083a9d87bd8d3490103a63b9c8b0e443bcf5492ca9
+
+ Backend standards
+
+ Backend application code is Python, managed exclusively with uv: use uv add/uv remove, never pip, Poetry, or Conda. Required technologies are FastAPI/Uvicorn,
+ Pydantic, async SQLAlchemy/asyncpg, Alembic, pytest, and Ruff. Introduce neither Node/TypeScript backend services nor product UI here. Access MDB/ACCDB
+ support was removed and must not return.
+
+ Business logic and database access belong in app/core/. REST routes and MCP handlers remain thin callers sharing core implementations. User-owned services
+ require owner IDs and ownership filtering/checks before reads or mutations. RLS configuration is not proof of effective enforcement. Core services and job
+ handlers never commit; request, audit, or worker boundaries own transactions.
+
+ Agents receive named MCP tools with typed schemas and precise, disambiguating descriptions, never raw SQL/ORM access. Preserve one registry and shared logic.
+ Long work uses queues with explicit retries, failures, and duplicate-safe recovery. Preserve quantities, units, source prices, confidence, citations, and
+ evidence. Never invent prices, wages, or productivity; use references or explicit user inputs. Reusable price-book promotion requires explicit intent. RFQ
+ drafting/sending requires explicit request and applicable approval; sending is queued.
+
+ Frontend standards
+
+ Use Vite, React, TypeScript, pnpm, Tailwind/shadcn, and TanStack Query for backend state. Thin REST wrappers follow CONTRACT.md; read it before API-consumer
+ changes, update stale contracts before types/consumers, and retain human review gates. Missing endpoints are blockers, never invitations to fabricate data. No
+ datastore access, pricing/matching/RFQ logic, or chat-prose parsing. Render structured artifacts/content blocks; invalidate/refetch dashboard queries after
+ side effects. Keep credentials outside frontend configuration. Distinguish honest capability empty states from explicitly authorized neutral chrome.
+
+ Documents and safety
+
+ Create enters the Agent workspace immediately while account-scoped saving/uploads/processing continue. Keep selection, navigation, and originals readable
+ during overlapping submissions under bounded concurrency. Preserve originals, scoped caches, and unsaved drafts across navigation; clear sensitive caches on
+ logout/account change. Acknowledge Upload/Accept immediately without claiming durable success prematurely; reconcile lost responses through stable action IDs.
+
+ Saved, viewable, searchable, and accepted are separate capabilities. Needs Review requires an unresolved request, understandable reason, and working action.
+ Provider failures require operational recovery, not content review. Preserve successful stages; show truthful intervention after bounded retries. Maintain
+ readable mobile/sidebar labels, reachable scrolling, and optional fullscreen.
+
+ Production/shared databases remain read-only. Retain isolated databases, projects, and storage until Tomasz explicitly confirms exact-resource deletion.
+ Resolve actual provider, endpoint, and process bindings before authorized operations; historical migrations or hosting notes grant no permission.
+
+ Verification boundary
+
+ Future changes require isolated database, worker, ingestion, and agent-flow evidence; pytest alone is insufficient. Run Gauntlet fast during work and survivor
+ before acceptance, preserving hooks, protected paths, and human gates. This probe authorizes none of those executions. Separate actual results from
+ expectations and limitations. Reviewer delivery retains provenance, existing linked PRs, neutral headings, numbered actions, verified fixture links, and
+ private evidence identities without credentials. Recovery must establish source availability before any further dependent action.
+
+ READY_FOR_COMPACTION
+
+─────────────────────────────────────────────────────────── 📷 remote-compacted · 114K→41K · ctrl+o ────────────────────────────────────────────────────────────
+
+
+ Continue the read-only recovery probe after compaction. First use your read tool to read the configured paired backend CLAUDE.md at
+ /Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-validation-sources/rialto-backend/CLAUDE.md, lines 1-20. If access
+ is denied, report the exact denial and stop; do not try another tool or bypass the guard. This is only an access reproduction, not full recovery. No writes or
+ infrastructure work.
+
+
+ ✘ Read ~/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-validation-sources/rialto-backend/CLAUDE.md:1-20
+
+ Captain, the read tool denied access with this exact message:
+
+ ```text
+Agent Gauntlet deny: Path is outside the allowed workspace:
+/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-validation-sources/rialto-backend/CLAUDE.md:1-20 Copy only the
+required non-secret input into the workspace.
+ ```
+
+ Stopped. No other tool attempted, no bypass, no writes or infrastructure work. Full recovery was not attempted.
+
+❯
+ π · ◔ GPT-6-Astra · 🌳 frontend/frontend · ⑂ detached · ◫ 14.4%/272K ⟲ · S1.33
+

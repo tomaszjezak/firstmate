@@ -1,0 +1,244 @@
+│       ████████████       │ ! to run bash                                   │
+│          ██  ██          │ $ to run python                                 │
+│          ██  ██          │ ─────────────────────────────────────────────── │
+│          ▒▒  ██          │ LSP Servers                                     │
+│              ██          │ No LSP servers                                  │
+│                          │                                                 │
+│       GPT-6-Astra        │                                                 │
+│       openai-codex       │                                                 │
+│                          │ ─────────────────────────────────────────────── │
+│                          │ Recent sessions                                 │
+│                          │ No recent sessions                              │
+│                          │                                                 │
+│                          │                                                 │
+│                          │                                                 │
+│                          │                                                 │
+╰──────────────────────────┴─────────────────────────────────────────────────╯
+ Tip: Press ctrl+r to search your prompt history and reuse a past message
+
+
+ Using supplied material
+
+ Captain, the supplied development context has been reviewed. The instruction
+ inbox could not be read because access was denied outside the allowed
+ workspace; no messages were handled or moved. No files were edited, and no
+ infrastructure, agent-launch, deployment, or validation commands were
+ executed. This summary describes the supplied rules, not independently
+ verified product behavior.
+
+ Scope and instruction precedence
+
+ This assignment is read-only context preparation. It authorizes summarizing
+ the development rules and then waiting, not implementing the documented
+ follow-ups. Historical migration commands, deployment procedures, resource
+ deletions, and old verification recipes are records, not current
+ authorization. Current product safety rules and explicit task boundaries take
+ precedence over contradictory historical notes.
+
+ After compaction, reload the required source documents before dependent work.
+ A summary does not replace that reload. Resolve documents from the actual
+ local copy, and resolve the paired repository from an explicit source path
+ rather than assuming sibling directory names. If required sources cannot be
+ accessed, report the missing context instead of proceeding from memory.
+
+ Backend architecture and ownership
+
+ The backend is Python, managed exclusively with uv; dependency changes use uv
+ add and uv remove, never pip, Poetry, or Conda. Its stack is FastAPI/Uvicorn,
+ Pydantic, async SQLAlchemy with asyncpg, and Alembic, with pytest and Ruff for
+ verification. Do not introduce a TypeScript or Node backend, scaffold product
+ UI here, or restore removed Access MDB/ACCDB support.
+
+ Business logic and database access belong in app/core/. REST routes and MCP
+ handlers are thin callers of those shared services. Do not duplicate pricing,
+ matching, RFQ orchestration, tool registries, or domain behavior between
+ callers. Core services and job handlers do not commit business transactions;
+ the owning request, audit, or worker boundary commits or rolls back.
+
+ Product agents receive specific named MCP tools with typed schemas and precise
+ descriptions, never raw SQL or ORM access. The actual registry is
+ authoritative for available tools. Historical tool names and counts are not
+ reliable capability inventories. User-owned service operations require
+ ownership identifiers and enforce ownership before reading or changing data.
+ Configured RLS must not be assumed effective without verifying the actual
+ connection role and transaction context.
+
+ Frontend architecture and contracts
+
+ The frontend is a Vite, React, and TypeScript SPA using pnpm, Tailwind/shadcn,
+ and TanStack Query for backend state. It renders data and calls REST APIs; it
+ does not access datastores directly or implement pricing, matching, or RFQ
+ business logic.
+
+ Read frontend CONTRACT.md before changing API consumers. Use documented
+ methods, paths, schemas, and enums. If the contract is stale, update it before
+ types and consumers, retaining human review requirements. Missing endpoints
+ are explicit blockers, not permission to invent data or reconstruct structured
+ state from chat prose. Chat renders backend content blocks; dashboards use
+ structured queries and invalidate or refetch them after relevant actions.
+
+ Backend and storage credentials never belong in frontend environment
+ variables. Direct document-part uploads use short-lived presigned URLs, not
+ bucket credentials. Development proxy behavior must not be confused with
+ static preview or production behavior.
+
+ Document experience and evidence
+
+ Create must enter the Agent workspace immediately while saving, uploading, and
+ processing continue through an account-scoped background coordinator.
+ Selection, navigation, and original-file reading remain available during
+ active work. Overlapping submissions share a bounded concurrency budget.
+
+ Preserve local originals, account/project-scoped caches, and unsaved review
+ drafts across route changes. Clear sensitive caches on logout or account
+ changes. Acknowledge Upload and Accept promptly, but claim saved or accepted
+ only after durable confirmation. Stable action identifiers reconcile lost
+ responses without duplicate effects.
+
+ Saved, viewable, searchable, and review accepted are distinct capabilities.
+ Original-file reading must not depend on ingestion or annotations. “Needs
+ Review” requires a specific unresolved request, understandable reason, and
+ working action; provider and configuration failures are operational problems
+ rather than content judgments. Recovery must be bounded, duplicate-safe,
+ truthful, and preserve successful stages.
+
+ The current document foundation uses immutable source revisions and processing
+ versions, with atomic publication of structured and lexical evidence. Failed
+ reprocessing preserves the last searchable version and citations. Retrieval
+ combines exact identifiers, lexical search, dense text, optional visual
+ candidates, fusion, and bounded reranking; do not replace it with dense-only
+ retrieval or resurrect retired chunk/search interfaces. Source text is
+ citable; contextual prefixes are not source quotations. Amendment scope and
+ supersession are distinct, and dates alone do not establish precedence.
+
+ Estimating, pricing, and asynchronous work
+
+ Preserve original quantities, units, locations, price sources, and evidence.
+ Never invent prices, wages, or productivity figures to complete an estimate.
+ Use price-book references or explicit user inputs. Estimate-local user inputs
+ remain local unless the user explicitly requests reusable promotion.
+ File-carried prices likewise require confirmation before promotion; unknown
+ factor semantics must not be guessed.
+
+ Current estimate tools save incrementally; historical agent-finalization
+ requirements must not be restored. Preserve immutable versions, allocation
+ conservation, provenance, and correct copy-on-write behavior. Missing or
+ ambiguous evidence remains explicit rather than becoming fabricated scope.
+
+ RFQs require explicit user intent, and sending is queued with applicable
+ approval. Long operations need explicit retry and failure states. Preserve the
+ distinction between lease loss and graceful shutdown, and keep queue-control
+ database capacity separate from ordinary business traffic.
+
+ Safety, verification, and delivery
+
+ Shared and production databases remain read-only. Historical descriptions such
+ as “fresh,” “dedicated,” or “Render retired” do not prove a safe target.
+ Before any separately authorized infrastructure work, establish current
+ provider, environment, source identity, database endpoint, and
+ web/worker/control bindings. Retain test databases, projects, and storage
+ until Tomasz explicitly confirms deletion of the exact resources.
+
+ For future authorized changes, exercise affected database, worker, ingestion,
+ and agent flows against isolated resources. Pytest alone is not integration
+ proof; fake sessions do not establish transaction behavior, and browser
+ fixtures do not prove real provider or storage behavior. Run Gauntlet fast
+ during work and survivor before acceptance without disabling protections.
+ Record actual commands, results, skips, limitations, and resource identities
+ separately from expected behavior.
+
+ Reviewer instructions should use neutral task headings, concise before/after
+ explanations, numbered actions, exact fixture filenames, and verified links.
+ Preserve source provenance and replace stale walkthroughs rather than
+ accumulating contradictions. Never expose credentials.
+
+ Required source paths to preserve
+
+ - /Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A
+   /config/rialto-context-test/pool/.treehouse/backend-e79957/4/backend/CLAUDE.
+   md
+ - /Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A
+   /config/rialto-context-test/pool/.treehouse/backend-e79957/4/backend/AGENTS.
+   md
+ - /Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A
+   /config/rialto-validation-sources/rialto-backend/CLAUDE.md
+ - /Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A
+   /config/rialto-validation-sources/rialto-backend/AGENTS.md
+ - /Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A
+   /config/rialto-validation-sources/rialto-frontend/CLAUDE.md
+ - /Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A
+   /config/rialto-validation-sources/rialto-frontend/AGENTS.md
+ - /Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A
+   /config/rialto-validation-sources/AGENTS.md
+
+ The requested summary is complete. Further work remains limited to the
+ subsequent source-reload instruction and any explicitly authorized read-only
+ continuation.
+
+ READY_FOR_COMPACTION
+
+─────────────────── 📷 remote-compacted · 166K→28K · ctrl+o ────────────────────
+
+
+ : Firstmate instruction waiting: list
+ '/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/
+ config/rialto-context-test/home/state/compact.inbox'/*.msg and, in numeric
+ order, read and act on each, then mv each handled file to
+ '/Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/
+ config/rialto-context-test/home/state/compact.inbox'/handled/.
+
+
+ ✘ Read
+~/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-c
+ontext-test/home/state/compact.inbox
+
+ Blocked; no bypass
+
+ Captain, the inbox is outside the tool’s allowed workspace, so access was
+ denied. No messages were read or moved.
+
+ Copy the non-secret .msg files into the allowed workspace, preserving their
+ numeric filenames, so I can process them in order.
+
+
+ Continue the read-only verification after compaction. Do not access the inbox.
+ Reload all required instruction sources from their supplied paths, then
+ summarize the current development rules, current source hashes and current
+ validation marker. If any required source is inaccessible, report that failure
+ precisely and stop. Do no implementation or infrastructure work. Finish
+ RECOVERY_COMPLETE only after successful reload.
+
+
+ • Read (3)
+   ├─
+~/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-c
+ontext-test/pool/.treehouse/backend-e79957/4/backend/CLAUDE.md:1-4000
+   ├─
+~/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-c
+ontext-test/pool/.treehouse/backend-e79957/4/backend/AGENTS.md
+   └─ ✘
+~/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-v
+alidation-sources/rialto-backend/CLAUDE.md:1-200
+
+ Captain, required-source reload failed. The tool denied access to:
+
+ /Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/c
+ onfig/rialto-validation-sources/rialto-backend/CLAUDE.md
+
+ Diagnostic: “Agent Gauntlet deny: Path is outside the allowed workspace.”
+
+ Before that failure:
+ - The working backend AGENTS.md was fully reloaded. Its current validation
+   marker is RIALTO_RECOVERY_20260912.
+ - The working backend CLAUDE.md was only partially displayed; 2,444 middle
+   lines were elided. Full reload remains incomplete.
+ - Current source hashes were not computed. Previously supplied hashes are not
+   current verification.
+
+ Stopped as instructed. No inbox access, implementation, or infrastructure work
+ was performed.
+
+ Tool output expansion: enabled
+
+❯
+ π · ◔ GPT-6-Astra · 🌳 …ckend/backend · ⑂ detached *1 · ◫ 13.4%/272K ⟲ · S2.41

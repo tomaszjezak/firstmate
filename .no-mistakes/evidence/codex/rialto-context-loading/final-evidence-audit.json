@@ -1,0 +1,10 @@
+{
+  "result": "pass",
+  "kind": "independent audit of retained live evidence from this pipeline run",
+  "candidate": "714fef668334d7a87340c9159aa1def0e4467234",
+  "native_compaction_id": "328a0d08",
+  "full_sources_verified": 7,
+  "updated_marker_discovered": true,
+  "original_receipts_match": true,
+  "new_harness_session_started": false
+}

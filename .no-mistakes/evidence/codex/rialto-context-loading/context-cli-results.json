@@ -1,0 +1,38 @@
+[
+  {
+    "scenario": "missing-manifest",
+    "exit": 1,
+    "bytes": 0,
+    "diagnostic": "error: required Rialto configuration missing: /Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-context-test/home/config/rialto-project-context.paths; use fm-project-context.sh --prepare-rialto with verified backend, frontend and product AGENTS.md sources\n"
+  },
+  {
+    "scenario": "complete-context",
+    "exit": 0,
+    "bytes": 589151,
+    "diagnostic": ""
+  },
+  {
+    "scenario": "inherited-context",
+    "exit": 0,
+    "bytes": 589151,
+    "diagnostic": ""
+  },
+  {
+    "scenario": "missing-checkout",
+    "exit": 1,
+    "bytes": 0,
+    "diagnostic": "error: required project context is unreadable: /Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-context-test/missing-checkout/CLAUDE.md\n"
+  },
+  {
+    "scenario": "missing-paired-source",
+    "exit": 1,
+    "bytes": 0,
+    "diagnostic": "error: required Rialto source is unreadable: /Users/tomasz/.no-mistakes/worktrees/4019102881cf/01M2BJC44MJV1HEJ1P50949S5A/config/rialto-context-test/absent/CLAUDE.md; prepare accessible paired sources with --prepare-rialto\n"
+  },
+  {
+    "scenario": "unrelated-project",
+    "exit": 0,
+    "bytes": 0,
+    "diagnostic": ""
+  }
+]

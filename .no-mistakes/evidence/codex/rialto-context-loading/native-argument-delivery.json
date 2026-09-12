@@ -1,0 +1,16 @@
+[
+  {
+    "harness": "codex",
+    "exit": 0,
+    "stdout": "codex-cli 0.153.4\n",
+    "stderr": "",
+    "encoded_argument_bytes": 589734
+  },
+  {
+    "harness": "omp",
+    "exit": 0,
+    "stdout": "omp/18.1.18\n",
+    "stderr": "",
+    "encoded_argument_bytes": 589734
+  }
+]
